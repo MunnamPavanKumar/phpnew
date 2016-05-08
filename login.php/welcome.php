@@ -42,7 +42,7 @@ include("config.php");
      
    }
 ?>
-<html">
+<html>
    
    <head>
       <title>Welcome </title>
