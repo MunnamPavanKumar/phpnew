@@ -1,0 +1,8 @@
+create database concert
+
+create table user (Id INT NOT NULL AUTO_INCREMENT , UserName varchar(50), password varchar(50) ,primary key(Id))
+
+create table levels (Level varchar(50) , price int , strength int);
+
+create table orders (UserId int , LevelId int , Date Date , Quantity int);
+
